@@ -8,10 +8,31 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Toonii mashin!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <h1>Calculate</h1>
+	<div class="container">
+	<div class="row">
+	<div class="col-12">
+	<form action="calculate.php" method="POST">
+             <label class="form-label">Too1</label>
+             <input type="number" name="too1">
+			 <select class="songoh">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+			 </select>
+             <label class="form-label">Too2</label>
+             <input type="number" name="too2">
+		<div class="button">
+             <button type="submit" class="btn btn-primary">BOD</button>
+	    </div>
+    </form>
+	</div>
+	</div>
+	</div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
