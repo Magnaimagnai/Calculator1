@@ -13,19 +13,23 @@
   <body>
     <h1>Calculate</h1>
 	<div class="container">
-	<div class="row">
-	<div class="col-12">
-	<form action="calculate.php" method="POST">
-             <label class="form-label">Too1</label>
-             <input type="number" name="too1">
-			 <select class="songoh">
-                    <option selected>Open this select menu</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
+	  <div class="row">
+   	<div class="col-12">
+      	<form action="calculate.php" method="POST">
+             <label class="form-label" >Too1</label>
+             <input type="number" placeholder="Toogoo oruulna uu" name="too1" required/>
+	<div class="row1">
+      <label class="form-label" >uildel</label>
+			 <select class="songoh" name="uildel" aria-label="uildel" required >
+                    <option selected></option>
+                    <option value="-">-</option>
+                    <option value="+">+</option>
+                    <option value="/">/</option>
+					          <option value="*">*</option>
 			 </select>
-             <label class="form-label">Too2</label>
-             <input type="number" name="too2">
+	</div>
+             <label class="form-label" >Too2</label>
+             <input type="number" placeholder="Toogoo oruulna uu" name="too2" required />
 		<div class="button">
              <button type="submit" class="btn btn-primary">BOD</button>
 	    </div>
