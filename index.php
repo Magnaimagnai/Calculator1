@@ -12,12 +12,21 @@
   </head>
   <body>
     <h1>Calculate</h1>
+    <?php
+           function muravah(){
+           echo "<br>";
+      }
+    ?>
+    <?php function button(){
+      echo '<button type="submit" class="btn btn-primary">BOD</button>';
+    } ?>
 	<div class="container">
 	  <div class="row">
    	<div class="col-12">
       	<form action="calculate.php" method="POST">
              <label class="form-label" >Too1</label>
              <input type="number" placeholder="Toogoo oruulna uu" name="too1" required/>
+             <?php  muravah(); ?> <!-- function duudaj bna -->
 	<div class="row1">
       <label class="form-label" >uildel</label>
 			 <select class="songoh" name="uildel" aria-label="uildel" required >
@@ -32,6 +41,7 @@
              <input type="number" placeholder="Toogoo oruulna uu" name="too2" required />
 		<div class="button">
              <button type="submit" class="btn btn-primary">BOD</button>
+             <?php button();?>
 	    </div>
     </form>
 	</div>
